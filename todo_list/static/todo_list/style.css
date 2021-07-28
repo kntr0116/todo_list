@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px 30%;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+.wrapper {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rbga(0,0,0,0.4);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    width: 100%;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 100%;
+    padding: 0 0 0 10px;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+    border-bottom: 3px dotted #ccc;
+    color: #555;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+li:first-child {
+    margin-top: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #555;
+}
